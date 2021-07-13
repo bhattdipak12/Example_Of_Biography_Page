@@ -1,0 +1,150 @@
+﻿body {
+background-color:#0e3445;
+font-size:medium;
+    font-family: serif;
+}
+
+/*Background Image*/
+.one-image
+{
+    background: url('home.jpg') top no-repeat;
+    background-size: cover;
+    padding: 200px 0 250px 0;
+}
+
+/*Navigation Link*/
+.one-link {
+    background-color: #249496;
+    padding: 5px 0px 5px 5px;
+   }
+
+.nav {
+    border:groove aqua;
+border-width:3px;
+}
+
+.myname {
+font-size: 20px;
+padding:10px 0 10px 10px;
+color:#fdfe72;
+}
+
+.link-right {
+float:right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1f7c82;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: serif;
+}
+
+a:hover {
+  background-color: yellow;
+}
+
+.bio:hover {
+    background-color: #fdfe72;
+}
+
+.bio1:hover {
+    background-color: #e76f51;
+} 
+/*Biography*/
+.bio {
+font-family: serif;
+color:#f06449;
+}
+
+.bio1 {
+    font-family: serif;
+color:#fdfe72;
+}
+
+/*divide1*/
+.item1 { grid-area: menu; }
+.item2 { grid-area: main; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+      'menu menu menu menu main main main main';
+    grid-gap: 5px;
+  border:groove aqua;
+border-width:3px;
+}
+.grid-container > div {
+  background-color: #165863;
+  padding: 0 10px 10px 20px;
+  font-size: 20px;
+  color:white;
+}
+
+/*Art Container*/
+.grid-artcontainer {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.grid-item {
+  text-align:center;
+  padding:0 0 13px 0;
+  }
+
+/*About Art*/
+/*divide2*/
+.item1-art { grid-area: menu; }
+.item2-art { grid-area: main; }
+
+.about-img {
+float:left;
+padding:0 20px 0 0;
+}
+
+.about-imgright {
+text-align:center;
+padding:10px 0 0 0;
+}
+.art-description {
+padding:0 0 0 5px;
+}
+
+/*form*/
+.form {
+background-color: #165863;
+padding:0 0 10px 0;
+border:groove aqua;
+border-width:3px;
+}
+
+.formtext {
+    color:white;
+    font-size:large;
+    font-family: serif;
+}
+.formtext1 {
+    color:white;
+    font-size:large;
+    font-family: serif;
+    padding:0 0 0 100px;
+}
+.button-style {
+    font-size:15px;
+    color:white;
+    background-color:#f06449;
+    padding:5px 10px ;
+}
